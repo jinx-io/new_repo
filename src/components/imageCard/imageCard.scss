@@ -1,0 +1,41 @@
+.imageCard {
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 180px;
+      align-items: center;
+      border-radius: 20px;
+    }
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Pushster", cursive;
+    }
+  }
+}
+.imageCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
